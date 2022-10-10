@@ -4,5 +4,5 @@ metadata:
   name: aplicacao
 spec:
   containers:
-    - name: container-loja-app
+    - name: container-hello
       image: hello-world:latest   
