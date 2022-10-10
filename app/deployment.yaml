@@ -12,7 +12,7 @@ spec:
        name: appv2-pod-dev
     spec:
       containers:
-        - name: cntr-story-app
+        - name: container-appv2
           image: rafanercessian/aplicacao-loja:v1
           ports:
             - containerPort: 80
