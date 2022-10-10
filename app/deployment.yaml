@@ -5,14 +5,14 @@ metadata:
 spec:
   selector:
       matchLabels:
-        name: app-pod
+        name: application-pod-dev
   template:
     metadata:
       labels:
-       name: app-pod
+       name: application-pod-dev
     spec:
       containers:
-        - name: container-loja-app
+        - name: cntr-story-app
           image: rafanercessian/aplicacao-loja:v1
           ports:
             - containerPort: 80
