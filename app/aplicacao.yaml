@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: aplicacao
+  name: application
 spec:
   containers:
     - name: cntr-story-app
