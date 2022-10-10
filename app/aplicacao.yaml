@@ -4,7 +4,7 @@ metadata:
   name: appv2
 spec:
   containers:
-    - name: container-appv2
+    - name: container-teste
       image: rafanercessian/aplicacao-loja:v1
       ports:
         - containerPort: 80
