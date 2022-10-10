@@ -1,15 +1,15 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: application-deployment
+  name: appv2-deployment
 spec:
   selector:
       matchLabels:
-        name: application-pod-dev
+        name: appv2-pod-dev
   template:
     metadata:
       labels:
-       name: application-pod-dev
+       name: appv2-pod-dev
     spec:
       containers:
         - name: cntr-story-app
