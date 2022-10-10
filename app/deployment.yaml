@@ -16,8 +16,3 @@ spec:
           image: rafanercessian/aplicacao-loja:v1
           ports:
             - containerPort: 80
-
-        - name: hello-world
-          image: hello-world:latest
-          ports:
-            - containerPort: 80
